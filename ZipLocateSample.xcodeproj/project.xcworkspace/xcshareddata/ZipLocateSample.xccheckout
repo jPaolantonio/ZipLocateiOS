@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>021908DB-DE5C-4D70-81C6-7354E2712E11</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZipLocateSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3F7A682B5E852436B8745EE6FCC3BC4F3B9FD461</key>
+		<string>github.com:jPaolantonio/ZipLocateiOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZipLocateSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3F7A682B5E852436B8745EE6FCC3BC4F3B9FD461</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jPaolantonio/ZipLocateiOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3F7A682B5E852436B8745EE6FCC3BC4F3B9FD461</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3F7A682B5E852436B8745EE6FCC3BC4F3B9FD461</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZipLocateSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

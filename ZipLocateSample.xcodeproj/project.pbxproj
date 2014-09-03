@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A287C5819B6A6A100377B76 /* JPZipLocationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A287C5719B6A6A100377B76 /* JPZipLocationTest.m */; };
+		1A287C5A19B6A7DE00377B76 /* JPZipLocationClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A287C5919B6A7DE00377B76 /* JPZipLocationClientTest.m */; };
 		1AF61FA019AFFF84000B72B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61F9F19AFFF84000B72B9 /* main.m */; };
 		1AF61FA319AFFF84000B72B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61FA219AFFF84000B72B9 /* AppDelegate.m */; };
 		1AF61FA619AFFF84000B72B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61FA519AFFF84000B72B9 /* ViewController.m */; };
 		1AF61FA919AFFF84000B72B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF61FA719AFFF84000B72B9 /* Main.storyboard */; };
 		1AF61FAB19AFFF84000B72B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF61FAA19AFFF84000B72B9 /* Images.xcassets */; };
-		1AF61FB719AFFF84000B72B9 /* ZipLocateSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61FB619AFFF84000B72B9 /* ZipLocateSampleTests.m */; };
+		1AF61FC219B0001F000B72B9 /* JPZipLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61FC119B0001F000B72B9 /* JPZipLocation.m */; };
+		1AF61FC619B00043000B72B9 /* JPZipLocationClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61FC519B00043000B72B9 /* JPZipLocationClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A287C5719B6A6A100377B76 /* JPZipLocationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPZipLocationTest.m; sourceTree = "<group>"; };
+		1A287C5919B6A7DE00377B76 /* JPZipLocationClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPZipLocationClientTest.m; sourceTree = "<group>"; };
 		1AF61F9A19AFFF84000B72B9 /* ZipLocateSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipLocateSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF61F9E19AFFF84000B72B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF61F9F19AFFF84000B72B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,7 +42,10 @@
 		1AF61FAA19AFFF84000B72B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AF61FB019AFFF84000B72B9 /* ZipLocateSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipLocateSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF61FB519AFFF84000B72B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AF61FB619AFFF84000B72B9 /* ZipLocateSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZipLocateSampleTests.m; sourceTree = "<group>"; };
+		1AF61FC019B0001F000B72B9 /* JPZipLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPZipLocation.h; path = ZipLocate/JPZipLocation.h; sourceTree = "<group>"; };
+		1AF61FC119B0001F000B72B9 /* JPZipLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPZipLocation.m; path = ZipLocate/JPZipLocation.m; sourceTree = "<group>"; };
+		1AF61FC419B00043000B72B9 /* JPZipLocationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPZipLocationClient.h; path = ZipLocate/JPZipLocationClient.h; sourceTree = "<group>"; };
+		1AF61FC519B00043000B72B9 /* JPZipLocationClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPZipLocationClient.m; path = ZipLocate/JPZipLocationClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 		1AF61F9119AFFF84000B72B9 = {
 			isa = PBXGroup;
 			children = (
+				1AF61FC319B00026000B72B9 /* JPZipLocate */,
 				1AF61F9C19AFFF84000B72B9 /* ZipLocateSample */,
 				1AF61FB319AFFF84000B72B9 /* ZipLocateSampleTests */,
 				1AF61F9B19AFFF84000B72B9 /* Products */,
@@ -102,7 +111,8 @@
 		1AF61FB319AFFF84000B72B9 /* ZipLocateSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				1AF61FB619AFFF84000B72B9 /* ZipLocateSampleTests.m */,
+				1A287C5719B6A6A100377B76 /* JPZipLocationTest.m */,
+				1A287C5919B6A7DE00377B76 /* JPZipLocationClientTest.m */,
 				1AF61FB419AFFF84000B72B9 /* Supporting Files */,
 			);
 			path = ZipLocateSampleTests;
@@ -114,6 +124,17 @@
 				1AF61FB519AFFF84000B72B9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF61FC319B00026000B72B9 /* JPZipLocate */ = {
+			isa = PBXGroup;
+			children = (
+				1AF61FC019B0001F000B72B9 /* JPZipLocation.h */,
+				1AF61FC119B0001F000B72B9 /* JPZipLocation.m */,
+				1AF61FC419B00043000B72B9 /* JPZipLocationClient.h */,
+				1AF61FC519B00043000B72B9 /* JPZipLocationClient.m */,
+			);
+			name = JPZipLocate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,9 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF61FC219B0001F000B72B9 /* JPZipLocation.m in Sources */,
 				1AF61FA619AFFF84000B72B9 /* ViewController.m in Sources */,
 				1AF61FA319AFFF84000B72B9 /* AppDelegate.m in Sources */,
 				1AF61FA019AFFF84000B72B9 /* main.m in Sources */,
+				1AF61FC619B00043000B72B9 /* JPZipLocationClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF61FB719AFFF84000B72B9 /* ZipLocateSampleTests.m in Sources */,
+				1A287C5819B6A6A100377B76 /* JPZipLocationTest.m in Sources */,
+				1A287C5A19B6A7DE00377B76 /* JPZipLocationClientTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +428,7 @@
 				1AF61FBC19AFFF84000B72B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AF61FBD19AFFF84000B72B9 /* Build configuration list for PBXNativeTarget "ZipLocateSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +437,7 @@
 				1AF61FBF19AFFF84000B72B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

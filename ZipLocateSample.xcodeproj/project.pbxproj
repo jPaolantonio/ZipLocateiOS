@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A287C5819B6A6A100377B76 /* JPZipLocationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A287C5719B6A6A100377B76 /* JPZipLocationTest.m */; };
 		1A287C5A19B6A7DE00377B76 /* JPZipLocationClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A287C5919B6A7DE00377B76 /* JPZipLocationClientTest.m */; };
+		1A5AA03C19E36ACF00F3B124 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5AA03B19E36ACF00F3B124 /* UIKit.framework */; };
 		1AF61FA019AFFF84000B72B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61F9F19AFFF84000B72B9 /* main.m */; };
 		1AF61FA319AFFF84000B72B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61FA219AFFF84000B72B9 /* AppDelegate.m */; };
 		1AF61FA619AFFF84000B72B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF61FA519AFFF84000B72B9 /* ViewController.m */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		1A287C5719B6A6A100377B76 /* JPZipLocationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPZipLocationTest.m; sourceTree = "<group>"; };
 		1A287C5919B6A7DE00377B76 /* JPZipLocationClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPZipLocationClientTest.m; sourceTree = "<group>"; };
+		1A5AA03B19E36ACF00F3B124 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AF61F9A19AFFF84000B72B9 /* ZipLocateSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipLocateSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF61F9E19AFFF84000B72B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AF61F9F19AFFF84000B72B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5AA03C19E36ACF00F3B124 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +69,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5AA03A19E36AC200F3B124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A5AA03B19E36ACF00F3B124 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1AF61F9119AFFF84000B72B9 = {
 			isa = PBXGroup;
 			children = (
 				1AF61FC319B00026000B72B9 /* JPZipLocate */,
 				1AF61F9C19AFFF84000B72B9 /* ZipLocateSample */,
 				1AF61FB319AFFF84000B72B9 /* ZipLocateSampleTests */,
+				1A5AA03A19E36AC200F3B124 /* Frameworks */,
 				1AF61F9B19AFFF84000B72B9 /* Products */,
 			);
 			sourceTree = "<group>";
